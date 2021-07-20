@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 14rem;
+}
+
+.form > img {
+  width: 400px;
+}
+
+.form-control {
+  margin-top: 2rem !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  margin-top: 2rem !important;
+}
+
+@media (max-width: 801px) {
+  .form {
+    margin: 1rem 5rem;
+  }
+}

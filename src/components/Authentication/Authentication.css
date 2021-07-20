@@ -1,0 +1,26 @@
+.auth-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 18rem;
+}
+
+.dialog-content {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  height: 15rem !important;
+  overflow: hidden;
+}
+
+#input-field {
+  width: 30rem !important;
+  border-radius: 7px !important;
+}
+
+@media (max-width: 801px) {
+  #input-field {
+    width: 17rem !important;
+  }
+}

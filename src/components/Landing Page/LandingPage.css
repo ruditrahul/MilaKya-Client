@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem 2rem 0;
+  text-align: center;
+}
+
+.main > img {
+  width: 400px;
+}
+
+.main > h2 {
+  margin: 2rem;
+}
+
+.footer {
+  display: flex;
+  padding: 1.5rem;
+
+  justify-content: space-evenly;
+}

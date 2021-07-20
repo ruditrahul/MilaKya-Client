@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+}
+
+.card {
+  min-height: 470px;
+  width: 400px;
+  margin: 1rem;
+}
+.card-media {
+  height: 350px;
+  width: 10px;
+}
+
+@media (max-width: 801px) {
+  .card {
+    width: 380px;
+    padding: 3px;
+  }
+}
